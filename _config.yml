@@ -5,18 +5,18 @@
 # Site
 title: 无畏的C
 subtitle: 我的博客
-description: 各种纪实
+description: 前端/旅行者/铲屎官
 author: Shanrj
 language: zh-Hans
 timezone: Asia/Shanghai
-keywords: 前端
+keywords: 前端 旅行 猫
 avatar: images/favicon.png
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://shanrj.com
 root: /
-permalink: :year/:month/:day/:title/
+permalink: category/:year-:month-:day-:title.html
 permalink_defaults:
 
 # Directory
@@ -48,6 +48,10 @@ highlight:
 # Category & Tag
 default_category: uncategorized
 category_map:
+	编程: prapgramming
+	旅行: travel
+	主子: cat_you
+	其他: others
 tag_map:
 
 # Date / Time format
